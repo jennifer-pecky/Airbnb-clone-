@@ -113,6 +113,7 @@
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
     justify-content: space-between;
 }
 
@@ -212,26 +213,20 @@ ul {
 
 /* responsive */
 
-.footer1 {
-    display: flex;
+.footer {
+    position: fixed;
+    bottom: 0%;
+    margin-top: 40px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 20px;
 }
 
 .footer2 {
     display: flex;
+}
+
+.main-footer {
+    display: flex;
     justify-content: space-between;
 }
-
-@media(max-width:767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width:574px) {
-    .footer-col {
-        width: 100%;
-    }
-}
-
-*/
