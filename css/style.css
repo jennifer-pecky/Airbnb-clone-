@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.navbar-lg {
     margin-right: 30px;
     margin-left: 30px;
     box-shadow: rgb(158, 155, 155);
@@ -12,7 +12,7 @@
 
 }
 
-.navbar {
+.navbar-lg {
     background-color: white;
     width: 100%;
     top: 0%;
@@ -25,12 +25,16 @@
     align-items: center;
 }
 
+.love {
+    margin-right: 50px;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-between;
     box-shadow: 1px 1px rgb(71, 70, 70);
     width: 300px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     border: 1px solid;
     border-radius: 90px;
     box-shadow: rgb(204, 197, 197);
@@ -57,7 +61,7 @@
     margin-right: 50px;
 }
 
-.btn-navbar {
+.btn-navbar-lg {
     display: flex;
     justify-content: space-around;
     /* gap: 20px; */
@@ -130,88 +134,11 @@
 
 .container-1 {
     display: flex;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-left: 30px;
     margin-right: 30px;
     justify-content: space-between;
-    /* font-family: 'Poppins', sans-serif;
-    line-height: 1-9; */
 }
-
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
-
-body {
-    line-height: 1-5;
-    font-family: 'Poppins', sans-serif;
-}
-
-.container-f {
-    max-width: 1170px;
-    background-color: whitesmoke;
-    margin: auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul {
-    list-style: none;
-}
-
-.footer {
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
-}
-
-.footer-col h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-    font-weight: 500;
-    position: relative;
-}
-
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    background-color: gray;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-
-.footer-col ul li:not(:last-child) {
-    margin-bottom: 20px;
-}
-
-.footer-col ul li a {
-    font-size: 16px;
-    text-transform: capitalize;
-    color: gray;
-    text-decoration: none;
-    font-weight: 300;
-    color: black;
-    display: block;
-    transition: all 0.3s ease;
-}
-
-
-.footer-col ul li a:hover {
-    color: #ffffff;
-    padding-left: 8px;
-}
-
-/* responsive */
 
 .footer {
     position: fixed;
@@ -229,4 +156,16 @@ ul {
 .main-footer {
     display: flex;
     justify-content: space-between;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 743px) {
+    .first-layer {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
 }
